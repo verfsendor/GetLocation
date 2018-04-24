@@ -10,6 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:paddingTop="@dimen/_5dp"
+        android:layout_marginRight="25dp"
         android:paddingBottom="@dimen/_5dp"
         android:layout_alignParentTop="true"
         android:textColor="#333333"
@@ -20,6 +21,7 @@
         android:layout_height="wrap_content"
         android:gravity="center_vertical"
         android:paddingBottom="5dp"
+        android:layout_marginRight="25dp"
         android:layout_alignParentBottom="true"
         android:layout_below="@+id/address"
         android:textColor="#999999"
@@ -33,4 +35,9 @@
         android:layout_centerVertical="true"
         android:src="@drawable/ic_choose_map"/>
 
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#aaaaaa"
+        android:layout_alignParentBottom="true"/>
 </RelativeLayout>

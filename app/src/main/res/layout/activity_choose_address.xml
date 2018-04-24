@@ -27,6 +27,7 @@
                     android:contentDescription="@string/app_name"
                     android:paddingBottom="7dp"
                     android:paddingLeft="15dp"
+                    android:visibility="gone"
                     android:paddingRight="15dp"
                     android:paddingTop="7dp"
                     android:src="#ffffff" />
@@ -148,7 +149,9 @@
             <ListView
                 android:id="@+id/search_listView"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:dividerHeight="1px"
+                android:divider="#999999"/>
 
         </LinearLayout>
     </FrameLayout>
